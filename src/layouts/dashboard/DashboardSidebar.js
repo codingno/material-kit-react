@@ -100,23 +100,23 @@ export default function DashboardSidebar({ isOpenSidebar, onCloseSidebar }) {
             sx={{ width: 100, position: 'absolute', top: -50 }}
           />
 
-          <Box sx={{ textAlign: 'center' }}>
+          {/* <Box sx={{ textAlign: 'center' }}>
             <Typography gutterBottom variant="h6">
               Get more?
             </Typography>
             <Typography variant="body2" sx={{ color: 'text.secondary' }}>
               From only $69
             </Typography>
-          </Box>
+          </Box> */}
 
-          <Button
+          {/* <Button
             fullWidth
             href="https://material-ui.com/store/items/minimal-dashboard/"
             target="_blank"
             variant="contained"
           >
             Upgrade to Pro
-          </Button>
+          </Button> */}
         </Stack>
       </Box>
     </Scrollbar>
